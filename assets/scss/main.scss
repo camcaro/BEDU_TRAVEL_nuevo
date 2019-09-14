@@ -5,14 +5,56 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     height: 10vh;
-    min-height: 25px;
-    background-color: grey;
+    min-height: 35px;
+    max-height: 65px;
+    background-color: #515151;
     h1 {
+        display:inline-block;
         height: inherit;
+        min-height: inherit;
+        max-height: inherit;
         margin: 0;
         img {
             height: inherit;
+            min-height: inherit;
+            max-height: inherit;
+            padding-left: 5px;
+        }
+    }
+    nav {
+        height: inherit;
+        min-height: inherit;
+        max-height: inherit;
+        ul {
+            margin: 0;
+            padding: 0;
+            height: inherit;
+            min-height: inherit;
+            max-height: inherit;
+            li {
+                display: inline-block;
+                height: inherit;
+                min-height: inherit;
+                max-height: inherit;
+                min-width: 100px;
+                // list-style-type: none;
+                // color: white;
+                // text-align: center;
+                a {
+                    display: flex;
+                    height: inherit;
+                    min-height: inherit;
+                    max-height: inherit;    
+                    list-style-type: none;
+                    text-decoration: none;
+                    color: white;
+                    justify-content: center;
+                    align-items: center;
+                }
+        }
         }
     }
 }

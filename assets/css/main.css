@@ -5,16 +5,55 @@ body {
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
   height: 10vh;
-  min-height: 25px;
-  background-color: grey;
+  min-height: 35px;
+  max-height: 65px;
+  background-color: #515151;
 }
 header h1 {
+  display: inline-block;
   height: inherit;
+  min-height: inherit;
+  max-height: inherit;
   margin: 0;
 }
 header h1 img {
   height: inherit;
+  min-height: inherit;
+  max-height: inherit;
+  padding-left: 5px;
+}
+header nav {
+  height: inherit;
+  min-height: inherit;
+  max-height: inherit;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  min-height: inherit;
+  max-height: inherit;
+}
+header nav ul li {
+  display: inline-block;
+  height: inherit;
+  min-height: inherit;
+  max-height: inherit;
+  min-width: 100px;
+}
+header nav ul li a {
+  display: flex;
+  height: inherit;
+  min-height: inherit;
+  max-height: inherit;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
