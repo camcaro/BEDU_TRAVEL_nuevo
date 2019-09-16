@@ -55,5 +55,8 @@ header nav ul li a {
   justify-content: center;
   align-items: center;
 }
+header nav ul li a:hover {
+  background-color: skyblue;
+}
 
 /*# sourceMappingURL=main.css.map */

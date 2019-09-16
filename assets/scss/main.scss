@@ -40,9 +40,6 @@ header {
                 min-height: inherit;
                 max-height: inherit;
                 min-width: 100px;
-                // list-style-type: none;
-                // color: white;
-                // text-align: center;
                 a {
                     display: flex;
                     height: inherit;
@@ -53,6 +50,9 @@ header {
                     color: white;
                     justify-content: center;
                     align-items: center;
+                }
+                a:hover {
+                    background-color: skyblue;
                 }
         }
         }
